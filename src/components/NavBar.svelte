@@ -7,16 +7,19 @@
   <div class="navbar-start ml-4 space-x-2">
     <div class="avatar">
       <div class="w-14 mask mask-squircle">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
-        />
+        <img src="IMG_4193.JPG" />
       </div>
     </div>
     <h1>TiTiEo</h1>
   </div>
   <ul class="navbar-end">
     <li class="btn btn-ghost btn-circle text-lg mr-4 h-14 w-14">
-      <a href="https://github.com/titieo" target="_blank" class="">
+      <a
+        href="https://github.com/titieo"
+        class="tooltip"
+        data-tip="GitHub"
+        target="_blank"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-10"
