@@ -12,8 +12,8 @@
     </div>
     <h1>TiTiEo</h1>
   </div>
-  <ul class="navbar-end">
-    <li class="btn btn-ghost btn-circle text-lg mr-4 h-14 w-14">
+  <ul class="navbar-end mr-2 space-x-1">
+    <li class="btn btn-ghost btn-circle text-lg h-14 w-14">
       <a
         href="https://github.com/titieo"
         class="tooltip"
@@ -25,19 +25,6 @@
           class="h-10"
           viewBox="0 0 24 24"
         >
-          <path
-            fill="currentColor"
-            fill-opacity="0"
-            d="M15 4.5C14.6122 4.39991 13.6683 4 12 4C10.3317 4 9.38784 4.39991 9 4.5C8.47455 4.07463 7.0625 3 5.5 3C5.15625 4 5.21371 5.21921 5.5 6C4.75 7 4.5 8 4.5 9.5C4.5 11.6875 4.98302 13.0822 6 14C7.01698 14.9178 8.1113 15.3749 9.5 15.5C8.84944 16.038 9 17.3743 9 18V22H15V18C15 17.3743 15.1506 16.038 14.5 15.5C15.8887 15.3749 16.983 14.9178 18 14C19.017 13.0822 19.5 11.6875 19.5 9.5C19.5 8 19.25 7 18.5 6C18.7863 5.21921 18.8438 4 18.5 3C16.9375 3 15.5255 4.07463 15 4.5Z"
-          >
-            <animate
-              fill="freeze"
-              attributeName="fill-opacity"
-              begin="0.6s"
-              dur="0.15s"
-              values="0;0.3"
-            />
-          </path>
           <g
             fill="none"
             stroke="currentColor"
@@ -74,6 +61,48 @@
         </svg>
       </a>
     </li>
-    <li></li>
+    <li class="btn btn-ghost btn-circle text-lg mr-4 h-14 w-14">
+      <a
+        href="https://www.facebook.com/trantanloc016"
+        class="tooltip"
+        data-tip="Facebook"
+        target="_blank"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-10"
+          viewBox="0 0 24 24"
+        >
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="4"
+          >
+            <path
+              stroke-dasharray="24"
+              stroke-dashoffset="24"
+              d="M17 4L15 4C12.5 4 11 5.5 11 8V20"
+            >
+              <animate
+                fill="freeze"
+                attributeName="stroke-dashoffset"
+                dur="0.4s"
+                values="24;0"
+              />
+            </path>
+            <path stroke-dasharray="12" stroke-dashoffset="12" d="M8 12H15">
+              <animate
+                fill="freeze"
+                attributeName="stroke-dashoffset"
+                begin="0.5s"
+                dur="0.2s"
+                values="12;0"
+              />
+            </path>
+          </g>
+        </svg>
+      </a>
+    </li>
   </ul>
 </header>
