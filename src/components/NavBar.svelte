@@ -4,16 +4,16 @@
 <header
   class="h-20 w-3/5 bg-white bg-opacity-80 rounded-full fixed top-6 left-1/2 -translate-x-1/2 backdrop:blur-md navbar"
 >
-  <div class="navbar-start ml-4 space-x-2">
+  <div class="navbar-start ml-4 space-x-2 prose font-serif">
     <div class="avatar">
       <div class="w-14 mask mask-squircle">
         <img src="IMG_4193.JPG" />
       </div>
     </div>
-    <h1>TiTiEo</h1>
+    <h1>Phật Học</h1>
   </div>
-  <ul class="navbar-end mr-2 space-x-1">
-    <li class="btn btn-ghost btn-circle text-lg h-14 w-14">
+  <ul class="navbar-end mr-3 space-x-1 text-lg">
+    <li class="flex items-center h-10 w-10">
       <a
         href="https://github.com/titieo"
         class="tooltip"
@@ -61,7 +61,7 @@
         </svg>
       </a>
     </li>
-    <li class="btn btn-ghost btn-circle text-lg mr-4 h-14 w-14">
+    <li class="flex items-center h-10 w-10">
       <a
         href="https://www.facebook.com/trantanloc016"
         class="tooltip"
